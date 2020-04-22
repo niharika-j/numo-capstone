@@ -1,0 +1,20 @@
+/* This file contains common style properties used in the website: font sizes, colors and responsive breakpoints */
+
+
+/***** FONT SIZE *****/
+//Desktop
+$section-header-desktop-size: 1.2rem;
+$section-content-desktop-size: 0.9rem;
+
+/***** COLORS *****/
+$slate: #363D42;
+$dark-blue: #254356;
+$light-blue: #51758C;
+$white: #f5f5f5;
+$orange: #F07622;
+
+/***** RESPONSIVE BREAKPOINTS *****/
+$phone-width-breakpoint: 420px;
+$large-phone-width-breakpoint: 620px;
+$tablet-width-breakpoint: 768px;
+$desktop-width-breakpoint: 1024px;

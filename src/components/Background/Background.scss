@@ -1,0 +1,121 @@
+@import "../../styles/_variables.scss";
+
+.background-research {
+    .approach, .takeaways-block, .stakeholder {
+        padding: 6vw 12vw;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .set-white-bg {
+        background-color: $white;
+    }
+
+    .landing-title {
+        width: 100%;
+        position: relative;
+        margin-bottom: -0.3rem;
+        img {
+          width: 100%;
+        }
+        .page-name {
+          font-size: 2rem;
+          color: $white;
+          position: absolute;
+          top: 35%;
+          padding-left: 12vw;
+        }
+    }
+
+    .approach {
+        .approach-title {
+          font-size: $section-header-desktop-size;
+          margin-bottom: 3rem;
+        }
+         
+        .approach-content {
+            width: 100%;
+            font-size: $section-content-desktop-size;
+            display: inline-block;
+            width: 50%;
+        }
+        .topics {
+            padding: 5rem 0;
+            font-size: $section-content-desktop-size;
+            .topics-list {
+                width: 100%;
+                display: flex;
+                .topic {
+                    display: inline-block;
+                    width: 20%;
+                    margin-right: 4%;
+                    .topic-number {
+                        font-size: $section-content-desktop-size + 0.3rem;
+                    }
+                }
+            }
+        }
+        .control-dots {
+            // position: relative;
+            // top: 1rem;
+            li.dot{
+                background: $white;
+                border: 1px solid $slate;
+            }
+            li.selected{
+                background: $slate;
+            }
+        }
+    }
+
+    .takeaways-block {
+        .takeaways-header {
+          font-size: $section-header-desktop-size;
+          margin-bottom: 3rem;
+        }
+        .takeaways-content {
+          width: 100%;
+          font-size: $section-content-desktop-size;
+          display: flex;
+          .takeaways-text, .takeaways-image {
+            display: inline-block;
+            width: 50%;
+          }
+          .takeaways-text {
+              padding-right: 5rem;
+              padding-top: 3rem;
+              .takeaways-title {
+                  font-weight: bold;
+                  margin-bottom: 2rem;
+              }
+              .takeaways-list li {
+                  margin-bottom: 1rem;
+                  line-height: 1.5rem;
+              }
+          }
+          .takeaways-image {
+            text-align: center;
+            img {
+              width: 80%;
+            }
+          }
+        }
+    }
+
+    .stakeholder {
+        .stakeholder-title {
+            font-size: $section-header-desktop-size;
+            margin-bottom: 3rem;
+        }
+        .stakeholder-text {
+            width: 100%;
+            font-size: $section-content-desktop-size;
+            line-height: 1.5rem;
+            width: 50%;
+            margin-bottom: 3rem;
+        }
+        img  {
+            width: 60%;
+        }
+    }
+}

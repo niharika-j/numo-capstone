@@ -1,0 +1,259 @@
+@import "../../styles/_variables.scss";
+
+.white-bg {
+  background-color: $white;
+}
+
+.landing-problem, .about-numo, .blurb, .quote-block {
+  padding: 6vw 12vw;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.learn-more {
+  a {
+    text-decoration: none;
+    color: $orange;
+    font-weight: bold;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.landing-title {
+  width: 100%;
+  position: relative;
+  margin-bottom: -0.3rem;
+  img {
+    width: 100%;
+  }
+  .project-name {
+    font-size: 2rem;
+    color: $white;
+    position: absolute;
+    top: 35%;
+    padding-left: 12vw;
+  }
+  .project-desc  {
+    width: 40%;
+    font-size: 1rem;
+    color: $white;
+    position: absolute;
+    top: 50%;
+    padding-left: 12vw;
+    line-height: 1.6;
+  }
+}
+
+.landing-problem {
+  background-color: $light-blue;
+  color: $white;
+  .landing-problem-title {
+    font-size: $section-header-desktop-size;
+    margin-bottom: 3rem;
+  }
+  .landing-problem-desc {
+    font-size: $section-content-desktop-size;
+    line-height: 1.6;
+  }
+}
+
+.about-numo {
+  .about-numo-title {
+    font-size: $section-header-desktop-size;
+    margin-bottom: 3rem;
+  }
+  .about-numo-section {
+    width: 100%;
+    font-size: $section-content-desktop-size;
+    .about-numo-content, .about-numo-image {
+      display: inline-block;
+      width: 50%;
+    }
+    .about-numo-image {
+      text-align: center;
+      img {
+        width: 30vw;
+      }
+    }
+  }
+  .about-numo-goals {
+    padding-top: 5rem;
+    font-size: $section-content-desktop-size;
+    .about-numo-goals-title {
+      font-weight: bold;
+      margin-bottom: 3rem;
+    }
+    .goals-list {
+      width: 98%;
+      padding-left: 2%;
+      .goal {
+        display: inline-block;
+        width: 20%;
+        margin-right: 4%;
+      }
+    }
+  }
+}
+
+.blurb {
+  .blurb-title {
+    font-size: $section-header-desktop-size;
+    margin-bottom: 3rem;
+  }
+  .blurb-section {
+    width: 100%;
+    font-size: $section-content-desktop-size;
+    display: flex;
+    .blurb-content, .blurb-image {
+      display: inline-block;
+      width: 50%;
+    }
+    .blurb-image {
+      text-align: center;
+      img {
+        width: 80%;
+      }
+    }
+  }
+  .keywords {
+    .keywords-header {
+      font-weight: bold;
+      margin-top: 4rem;
+    }
+    .keywords-list {
+      margin: 3rem 0;
+      div {
+        display: inline-block;
+        margin-right: 1rem;
+      }
+    }
+  }
+}
+
+.image-blurb {
+  width: 100%;
+  position: relative;
+  margin-bottom: -0.4rem;
+  img {
+    width: 100%;
+  }
+  .image-blurb-title {
+    font-size: 2rem;
+    color: $white;
+    position: absolute;
+    top: 35%;
+    padding-left: 12vw;
+  }
+  .image-blurb-desc  {
+    width: 40%;
+    font-size: 1rem;
+    color: $white;
+    position: absolute;
+    top: 50%;
+    padding-left: 12vw;
+    line-height: 1.6;
+  }
+  .image-blurb-link {
+    font-size: 1rem;
+    position: absolute;
+    top: 60%;
+    padding-left: 12vw;
+    a {
+      text-decoration: none;
+      color: $white;
+      font-weight: 600;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.quote-block {
+  background-color: $white;
+  .quote-title {
+    font-size: $section-content-desktop-size;
+    font-weight: bold;
+    margin-bottom: 3rem;
+  }
+  .quote-list {
+    display: flex;
+    width: 100%;
+    .quote {
+      width: 40%;
+      padding-right: 8%;
+      padding-left: 2%;
+      border-left: $orange 5px solid;
+      font-style: italic;
+    }
+  }
+}
+
+
+
+/***** RESPONSIVE STYLES *****/
+
+//Mobile phones
+@media only screen and (max-width: $phone-width-breakpoint){
+  .landing-title{
+    .project-name {
+      font-size: 1.2rem;
+    }
+    .project-desc  {
+      font-size: 0.5rem;
+      top: 55%;
+    }
+  }
+  .landing-problem {
+    .landing-problem-title {
+      font-size: 0.72rem;
+    }
+    .landing-problem-desc {
+      font-size: 0.5rem;
+    }
+  }
+}
+
+//Phablets
+@media only screen and (min-width: $phone-width-breakpoint) and (max-width: $large-phone-width-breakpoint){
+  .landing-title{
+    .project-name {
+      font-size: 1.4rem;
+    }
+    .project-desc  {
+      font-size: 0.7rem;
+      top: 50%;
+    }
+  }
+  .landing-problem {
+    .landing-problem-title {
+      font-size: 1.2rem;
+    }
+    .landing-problem-desc {
+      font-size: 0.7rem;
+    }
+  }
+}
+
+//Tablets
+@media only screen and (min-width: $large-phone-width-breakpoint) and (max-width: $tablet-width-breakpoint){
+  .landing-title{
+    .project-name {
+      font-size: 1.8rem;
+    }
+    .project-desc  {
+      font-size: 1rem;
+      top: 55%;
+    }
+  }
+  .landing-problem {
+    .landing-problem-title {
+      font-size: 1.4rem;
+    }
+    .landing-problem-desc {
+      font-size: 1rem;
+    }
+  }
+}
