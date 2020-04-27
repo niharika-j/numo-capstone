@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/niharika-j/numo-capstone/static/css/main.7d03bcc7.chunk.css",
+    "main.js": "/niharika-j/numo-capstone/static/js/main.70a5125c.chunk.js",
+    "main.js.map": "/niharika-j/numo-capstone/static/js/main.70a5125c.chunk.js.map",
+    "runtime-main.js": "/niharika-j/numo-capstone/static/js/runtime-main.b157e23b.js",
+    "runtime-main.js.map": "/niharika-j/numo-capstone/static/js/runtime-main.b157e23b.js.map",
+    "static/css/2.d409d1d9.chunk.css": "/niharika-j/numo-capstone/static/css/2.d409d1d9.chunk.css",
+    "static/js/2.29c1ff66.chunk.js": "/niharika-j/numo-capstone/static/js/2.29c1ff66.chunk.js",
+    "static/js/2.29c1ff66.chunk.js.map": "/niharika-j/numo-capstone/static/js/2.29c1ff66.chunk.js.map",
+    "index.html": "/niharika-j/numo-capstone/index.html",
+    "precache-manifest.7f0a7bd4c2fcd698eb3f5b3de7757e72.js": "/niharika-j/numo-capstone/precache-manifest.7f0a7bd4c2fcd698eb3f5b3de7757e72.js",
+    "service-worker.js": "/niharika-j/numo-capstone/service-worker.js",
+    "static/css/2.d409d1d9.chunk.css.map": "/niharika-j/numo-capstone/static/css/2.d409d1d9.chunk.css.map",
+    "static/css/main.7d03bcc7.chunk.css.map": "/niharika-j/numo-capstone/static/css/main.7d03bcc7.chunk.css.map",
+    "static/js/2.29c1ff66.chunk.js.LICENSE.txt": "/niharika-j/numo-capstone/static/js/2.29c1ff66.chunk.js.LICENSE.txt",
+    "static/media/about-us-bg.png": "/niharika-j/numo-capstone/static/media/about-us-bg.80d3ff29.png",
+    "static/media/background-research-header-bg.png": "/niharika-j/numo-capstone/static/media/background-research-header-bg.c8498bc1.png",
+    "static/media/bg-approach-1.png": "/niharika-j/numo-capstone/static/media/bg-approach-1.1a9af571.png",
+    "static/media/consumer-research.png": "/niharika-j/numo-capstone/static/media/consumer-research.c7e5e3b2.png",
+    "static/media/key-takeaways.png": "/niharika-j/numo-capstone/static/media/key-takeaways.6f2cd153.png",
+    "static/media/landing-bg.png": "/niharika-j/numo-capstone/static/media/landing-bg.bd6515a7.png",
+    "static/media/merchant-research.png": "/niharika-j/numo-capstone/static/media/merchant-research.d386d8c6.png",
+    "static/media/primary-research-bg.png": "/niharika-j/numo-capstone/static/media/primary-research-bg.068709d2.png",
+    "static/media/prototyping-bg.png": "/niharika-j/numo-capstone/static/media/prototyping-bg.d0de3d18.png",
+    "static/media/stakeholder-map.png": "/niharika-j/numo-capstone/static/media/stakeholder-map.c2c19010.png",
+    "static/media/what-is-clo.png": "/niharika-j/numo-capstone/static/media/what-is-clo.6f68b4a6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b157e23b.js",
+    "static/css/2.d409d1d9.chunk.css",
+    "static/js/2.29c1ff66.chunk.js",
+    "static/css/main.7d03bcc7.chunk.css",
+    "static/js/main.70a5125c.chunk.js"
+  ]
+}
