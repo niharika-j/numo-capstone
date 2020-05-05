@@ -5,6 +5,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import consumerLandingBG from '../../assets/images/consumer-landing-bg.png';
 import talkToConsumersBG from '../../assets/images/talk-to-consumers-bg.png';
+import talkToConsumersMobileBG from '../../assets/images/talk-to-consumers-mobile-bg.png';
 import guerillaResearchImg from '../../assets/images/guerilla-research.png';
 import boothInterviewImg from '../../assets/images/booth-interview.png';
 import interpretationBG from '../../assets/images/interpretation-session-bg.png';
@@ -43,7 +44,8 @@ class Consumers extends React.Component {
         title: "Talk to Consumers",
         description: "",
         image: talkToConsumersBG,
-        altText: "Talking to consumers during think aloud"
+        altText: "Talking to consumers during think aloud",
+        mobileImg: talkToConsumersMobileBG
       },
       interpretation: {
         title: "Interpretation Session",
@@ -70,7 +72,12 @@ class Consumers extends React.Component {
     const generateImageBlurb = (obj) => {
       return (
         <div className="image-blurb">
-          <img src={obj.image} className="image-blurb-bg" alt={obj.altText} />
+          {
+            (window.screen.width <= 420 && obj.mobileImg) ?
+            <img src={obj.mobileImg} alt={obj.altText} />
+            :
+            <img src={obj.image} className="image-blurb-bg" alt={obj.altText} />
+          }
           <div className="image-blurb-title">{obj.title}</div>
           <div className="image-blurb-desc">{obj.description}</div>
         </div>

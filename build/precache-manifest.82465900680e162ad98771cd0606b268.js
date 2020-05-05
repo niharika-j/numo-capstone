@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4ca51d6c6ffe9fb673a56f9397c976b6",
+    "revision": "06b189b22ca477ccadb7cee37afc569c",
     "url": "/numo-capstone/index.html"
   },
   {
-    "revision": "456845839fac6579e4a3",
-    "url": "/numo-capstone/static/css/2.5280a38c.chunk.css"
+    "revision": "17a8a01c76f8e0d4fbf3",
+    "url": "/numo-capstone/static/css/2.b900c9f8.chunk.css"
   },
   {
-    "revision": "7a25360f8d1e0da9f350",
-    "url": "/numo-capstone/static/css/main.d1d8b7a3.chunk.css"
+    "revision": "22e70ca4ec43e500bd60",
+    "url": "/numo-capstone/static/css/main.121f1033.chunk.css"
   },
   {
-    "revision": "456845839fac6579e4a3",
-    "url": "/numo-capstone/static/js/2.a573de50.chunk.js"
+    "revision": "17a8a01c76f8e0d4fbf3",
+    "url": "/numo-capstone/static/js/2.eb87efec.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/numo-capstone/static/js/2.a573de50.chunk.js.LICENSE.txt"
+    "url": "/numo-capstone/static/js/2.eb87efec.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7a25360f8d1e0da9f350",
-    "url": "/numo-capstone/static/js/main.67abfefe.chunk.js"
+    "revision": "22e70ca4ec43e500bd60",
+    "url": "/numo-capstone/static/js/main.fb2f22aa.chunk.js"
   },
   {
     "revision": "af33f4f55e1b35bd7c2b",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9052285e1eb5c863017b73607812094a",
     "url": "/numo-capstone/static/media/about-us-landing-bg.9052285e.png"
+  },
+  {
+    "revision": "f84767118e0544e9af25134bf422c93f",
+    "url": "/numo-capstone/static/media/about-us-landing-mobile-bg.f8476711.png"
   },
   {
     "revision": "b8e418458b3ae69148938523c46568a8",
@@ -96,6 +100,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/numo-capstone/static/media/guerilla-research.0946cf41.png"
   },
   {
+    "revision": "1a7731407b8653108208263caedbc2db",
+    "url": "/numo-capstone/static/media/home-mobile-bg.1a773140.png"
+  },
+  {
     "revision": "e852712575dc1af4001e3b7372baf8e9",
     "url": "/numo-capstone/static/media/ideating-bg.e8527125.png"
   },
@@ -114,6 +122,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ec2fd0848a9437f7caecb4e66a75cfe2",
     "url": "/numo-capstone/static/media/investment-consumer-3.ec2fd084.png"
+  },
+  {
+    "revision": "84dfc3e3daffb473ef04eace0c8b3927",
+    "url": "/numo-capstone/static/media/investment-consumer-mobile.84dfc3e3.png"
   },
   {
     "revision": "8ce5028731a7507842363c2b96dc970d",
@@ -146,6 +158,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c596cd85321a83030527f211a79b3c6a",
     "url": "/numo-capstone/static/media/medium-bg.c596cd85.png"
+  },
+  {
+    "revision": "ef9323f9b895b42bcb8e53a2ef2e28d9",
+    "url": "/numo-capstone/static/media/medium-mobile-bg.ef9323f9.png"
   },
   {
     "revision": "6a60ee6794f4a9edfb6603b29ce9a6a2",
@@ -234,6 +250,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9cbcbd956a80b51d341c9e4872edf0b6",
     "url": "/numo-capstone/static/media/restaurant-consumer-3.9cbcbd95.png"
+  },
+  {
+    "revision": "bdbe685903ffd06da54be927a0981e01",
+    "url": "/numo-capstone/static/media/restaurant-consumer-mobile.bdbe6859.png"
   },
   {
     "revision": "d28b437c671d52875107137bd999dbe4",

@@ -279,7 +279,7 @@
               position: relative;
               height: 50vh;
               left: 100%;
-              margin-left: -250%;
+              margin-left: -200%;
               width: auto;
             }
             .image-blurb-title {
@@ -288,9 +288,10 @@
               top: 30%;
             }
             .image-blurb-desc  {
-              width: 70%;
+              width: 80%;
               font-size: $section-content-mobile-size;
               position: absolute;
+              line-height: normal;
               top: 50%;
             }
         }
