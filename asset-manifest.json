@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/numo-capstone/static/css/main.121f1033.chunk.css",
-    "main.js": "/numo-capstone/static/js/main.fb2f22aa.chunk.js",
-    "main.js.map": "/numo-capstone/static/js/main.fb2f22aa.chunk.js.map",
+    "main.css": "/numo-capstone/static/css/main.230fee80.chunk.css",
+    "main.js": "/numo-capstone/static/js/main.35908225.chunk.js",
+    "main.js.map": "/numo-capstone/static/js/main.35908225.chunk.js.map",
     "runtime-main.js": "/numo-capstone/static/js/runtime-main.339215f8.js",
     "runtime-main.js.map": "/numo-capstone/static/js/runtime-main.339215f8.js.map",
     "static/css/2.b900c9f8.chunk.css": "/numo-capstone/static/css/2.b900c9f8.chunk.css",
-    "static/js/2.eb87efec.chunk.js": "/numo-capstone/static/js/2.eb87efec.chunk.js",
-    "static/js/2.eb87efec.chunk.js.map": "/numo-capstone/static/js/2.eb87efec.chunk.js.map",
+    "static/js/2.17a9e00c.chunk.js": "/numo-capstone/static/js/2.17a9e00c.chunk.js",
+    "static/js/2.17a9e00c.chunk.js.map": "/numo-capstone/static/js/2.17a9e00c.chunk.js.map",
     "index.html": "/numo-capstone/index.html",
-    "precache-manifest.82465900680e162ad98771cd0606b268.js": "/numo-capstone/precache-manifest.82465900680e162ad98771cd0606b268.js",
+    "precache-manifest.8acb9b52d18fe0fc167fb50df14eac39.js": "/numo-capstone/precache-manifest.8acb9b52d18fe0fc167fb50df14eac39.js",
     "service-worker.js": "/numo-capstone/service-worker.js",
     "static/css/2.b900c9f8.chunk.css.map": "/numo-capstone/static/css/2.b900c9f8.chunk.css.map",
-    "static/css/main.121f1033.chunk.css.map": "/numo-capstone/static/css/main.121f1033.chunk.css.map",
-    "static/js/2.eb87efec.chunk.js.LICENSE.txt": "/numo-capstone/static/js/2.eb87efec.chunk.js.LICENSE.txt",
+    "static/css/main.230fee80.chunk.css.map": "/numo-capstone/static/css/main.230fee80.chunk.css.map",
+    "static/js/2.17a9e00c.chunk.js.LICENSE.txt": "/numo-capstone/static/js/2.17a9e00c.chunk.js.LICENSE.txt",
     "static/media/about-us-bg.png": "/numo-capstone/static/media/about-us-bg.80d3ff29.png",
     "static/media/about-us-landing-bg.png": "/numo-capstone/static/media/about-us-landing-bg.9052285e.png",
     "static/media/about-us-landing-mobile-bg.png": "/numo-capstone/static/media/about-us-landing-mobile-bg.f8476711.png",
@@ -85,14 +85,15 @@
     "static/media/takeaways-clo.png": "/numo-capstone/static/media/takeaways-clo.6884afdb.png",
     "static/media/takeaways-publisher.png": "/numo-capstone/static/media/takeaways-publisher.cd89af67.png",
     "static/media/talk-to-consumers-bg.png": "/numo-capstone/static/media/talk-to-consumers-bg.f3ee4d52.png",
+    "static/media/talk-to-consumers-mobile-bg.png": "/numo-capstone/static/media/talk-to-consumers-mobile-bg.f813fc8b.png",
     "static/media/validate-assumptions-bg.png": "/numo-capstone/static/media/validate-assumptions-bg.69f89742.png",
     "static/media/what-is-clo.png": "/numo-capstone/static/media/what-is-clo.6f68b4a6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.339215f8.js",
     "static/css/2.b900c9f8.chunk.css",
-    "static/js/2.eb87efec.chunk.js",
-    "static/css/main.121f1033.chunk.css",
-    "static/js/main.fb2f22aa.chunk.js"
+    "static/js/2.17a9e00c.chunk.js",
+    "static/css/main.230fee80.chunk.css",
+    "static/js/main.35908225.chunk.js"
   ]
 }

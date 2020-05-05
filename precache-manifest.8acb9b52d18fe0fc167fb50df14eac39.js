@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "06b189b22ca477ccadb7cee37afc569c",
+    "revision": "d02cba59e1e339833d638bb104548f22",
     "url": "/numo-capstone/index.html"
   },
   {
-    "revision": "17a8a01c76f8e0d4fbf3",
+    "revision": "c2b74fe4613430d740e6",
     "url": "/numo-capstone/static/css/2.b900c9f8.chunk.css"
   },
   {
-    "revision": "22e70ca4ec43e500bd60",
-    "url": "/numo-capstone/static/css/main.121f1033.chunk.css"
+    "revision": "3526f425cdb8e62d2d34",
+    "url": "/numo-capstone/static/css/main.230fee80.chunk.css"
   },
   {
-    "revision": "17a8a01c76f8e0d4fbf3",
-    "url": "/numo-capstone/static/js/2.eb87efec.chunk.js"
+    "revision": "c2b74fe4613430d740e6",
+    "url": "/numo-capstone/static/js/2.17a9e00c.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/numo-capstone/static/js/2.eb87efec.chunk.js.LICENSE.txt"
+    "url": "/numo-capstone/static/js/2.17a9e00c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "22e70ca4ec43e500bd60",
-    "url": "/numo-capstone/static/js/main.fb2f22aa.chunk.js"
+    "revision": "3526f425cdb8e62d2d34",
+    "url": "/numo-capstone/static/js/main.35908225.chunk.js"
   },
   {
     "revision": "af33f4f55e1b35bd7c2b",
@@ -310,6 +310,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f3ee4d521947db5526c4ff303728daf4",
     "url": "/numo-capstone/static/media/talk-to-consumers-bg.f3ee4d52.png"
+  },
+  {
+    "revision": "f813fc8be48b802dff139d82974c9fe7",
+    "url": "/numo-capstone/static/media/talk-to-consumers-mobile-bg.f813fc8b.png"
   },
   {
     "revision": "69f89742d86d2bc2f2921e66725ea9ad",
