@@ -1,0 +1,167 @@
+@import "../../styles/_variables.scss";
+
+.prototypes-page {
+
+    .approach, .info-block, .prototypes-insights-block, .refining-block {
+        padding: 6vw 12vw;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .set-white-bg {
+        background-color: $white;
+    }
+
+    .landing-title {
+        width: 100%;
+        position: relative;
+        margin-bottom: -0.3rem;
+        img {
+          width: 100%;
+        }
+        .page-name {
+          font-size: 3rem;
+          color: $white;
+          position: absolute;
+          top: 35%;
+          padding-left: 12vw;
+        }
+        .page-desc {
+          width: 40%;
+          font-size: 1rem;
+          color: $white;
+          position: absolute;
+          top: 50%;
+          padding-left: 12vw;
+          line-height: 1.6;
+        }
+    }
+
+    .approach {
+        .approach-title {
+          font-size: $section-header-desktop-size;
+          margin-bottom: 3rem;
+        }
+         
+        .approach-content {
+            font-size: $section-content-desktop-size;
+            display: inline-block;
+            width: 50%;
+        }
+        .methods {
+            padding: 5rem 0;
+            font-size: $section-content-desktop-size;
+            .methods-list {
+                width: 100%;
+                display: flex;
+                .method {
+                    display: inline-block;
+                    width: 32%;
+                    margin-right: 4%;
+                    .method-number {
+                        font-size: $section-content-desktop-size + 0.3rem;
+                    }
+                    .method-title {
+                        font-weight: bold;
+                    }
+                    .method-desc {
+                        margin-top: 1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .info-block {
+        .info-content {
+          width: 100%;
+          font-size: $section-content-desktop-size;
+          display: flex;
+          .info-text, .info-image {
+            display: inline-block;
+            width: 50%;
+          }
+          .info-text {
+              padding-right: 5rem;
+              padding-top: 3rem;
+              .info-title {
+                  font-weight: bold;
+                  margin-bottom: 2rem;
+              }
+          }
+          .info-image {
+            text-align: center;
+            img {
+              width: 80%;
+            }
+          }
+        }
+    }
+
+    .prototypes-insights-block {
+        background-color: $light-blue;
+        color: $white;
+        .prototypes-insights-title {
+            font-size: $section-header-desktop-size;
+            margin-bottom: 3rem;
+            font-weight: bold;
+        }
+        .prototypes-insights {
+            font-size: $section-content-desktop-size;
+            .prototypes-insights-list {
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                .prototypes-insight {
+                    display: inline-block;
+                    width: 29%;
+                    margin-right: 4%;
+                    margin-bottom: 2rem;
+                    .prototypes-insight-number {
+                        font-size: $section-content-desktop-size + 0.3rem;
+                    }
+                    .prototypes-insight-desc {
+                        margin-top: 1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .refining-block {
+        .refining-title {
+            font-size: $section-header-desktop-size;
+            margin-bottom: 3rem;
+            font-weight: bold;
+        }
+        .refining-header {
+            font-size: $section-header-desktop-size;
+            margin-bottom: 3rem;
+        }
+        .refining-desc {
+            font-size: $section-content-desktop-size;
+            display: inline-block;
+            width: 50%;
+            margin-bottom: 5rem;
+        }
+        .refining-images {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+            margin-bottom: 4rem;
+            .refining-image2-container {
+                width: 50%;
+                img {
+                    width: 80%;
+                }
+            }
+            .refining-image3-container {
+                width: 33%;
+                img {
+                    width: 65%;
+                }
+            }
+        }
+    }
+}

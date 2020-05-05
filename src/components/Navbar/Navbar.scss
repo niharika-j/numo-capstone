@@ -3,8 +3,10 @@
 .navbar {
     width: 100%;
     padding: 1.2rem 0;
-    background-color: $slate;
+    background-color: rgba(0, 0, 0, 0.6);
     text-align: right;
+    position: fixed;
+    z-index: 1;
     .navbar-link {
         display: inline;
         a {

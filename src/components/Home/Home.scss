@@ -29,7 +29,7 @@
     width: 100%;
   }
   .project-name {
-    font-size: 2rem;
+    font-size: 3rem;
     color: $white;
     position: absolute;
     top: 35%;
@@ -74,24 +74,7 @@
     .about-numo-image {
       text-align: center;
       img {
-        width: 30vw;
-      }
-    }
-  }
-  .about-numo-goals {
-    padding-top: 5rem;
-    font-size: $section-content-desktop-size;
-    .about-numo-goals-title {
-      font-weight: bold;
-      margin-bottom: 3rem;
-    }
-    .goals-list {
-      width: 98%;
-      padding-left: 2%;
-      .goal {
-        display: inline-block;
-        width: 20%;
-        margin-right: 4%;
+        width: 20vw;
       }
     }
   }

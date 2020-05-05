@@ -1,0 +1,144 @@
+@import "../../styles/_variables.scss";
+
+.about-us-page {
+    .landing-title {
+        width: 100%;
+        position: relative;
+        margin-bottom: -0.3rem;
+        img {
+          width: 100%;
+        }
+        .page-name {
+          font-size: 3rem;
+          color: $white;
+          position: absolute;
+          top: 50%;
+          padding-left: 12vw;
+        }
+    }
+
+    .multidisciplinary-team  {
+        width: 100%;
+        padding: 6vw 12vw;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        .multidisciplinary-title, .multidisciplinary-desc {
+            width: 40%;
+        }
+        .multidisciplinary-title {
+            font-size: $section-header-desktop-size;
+            margin-bottom: 3rem;
+        }
+        .multidisciplinary-desc {
+            font-size: $section-content-desktop-size;
+        }
+    }
+
+    .team-gallery {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        color: $white;
+        .team-member {
+            position: relative;
+            width: 22%;
+            margin: -1px;
+            text-align: center;
+            cursor: pointer;
+            .member-image {
+                width: 100%;
+            }
+            .member-name {
+                position: absolute;
+                font-size: $section-header-desktop-size;
+                bottom: 10%;
+                left: 0;
+                right: 0;
+                margin: auto;
+            }
+            .member-role {
+                position: absolute;
+                font-size: $section-content-desktop-size;
+                bottom: 5%;
+                left: 0;
+                right: 0;
+                margin: auto;
+            }
+        }
+    }
+
+    .medium {
+        width: 100%;
+        position: relative;
+        margin-bottom: -0.4rem;
+        margin-top: -0.4rem;
+        text-align: center;
+        .medium-bg {
+          width: 100%;
+        }
+        .medium-title {
+          font-size: 2rem;
+          color: $white;
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 35%;
+          margin: auto;
+        }
+        .medium-button {
+            position: absolute;
+            color: $white;
+            background-color: $orange;
+            top: 45%;
+            left: 0;
+            right: 0;
+            margin: auto;
+            padding: 1rem;
+            font-size: $section-content-desktop-size;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+    }
+}
+.member-profile-block {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1.5rem;
+    .member-profile-pic {
+        display: inline-block;
+        width: 40%;
+        img {
+            width: 100%;
+        }
+    }
+    .member-profile-text {
+        box-sizing: border-box;
+        display: inline-block;
+        font-size: $section-content-desktop-size;
+        width: 60%;
+        padding: 2rem;
+        padding-bottom: 0;
+        .member-profile-name {
+            font-weight: bold;
+            margin-bottom: 1rem;
+            font-size: $section-content-desktop-size + 0.3rem;
+        }
+        .member-profile-role {
+            font-size: $section-content-desktop-size;
+            margin-bottom: 3rem;
+        }
+        .member-links{
+            margin-top: 3rem;
+            font-size: 2rem;
+            a {
+                padding-right: 1rem;
+                color: $slate;
+            }
+        }
+    }
+}

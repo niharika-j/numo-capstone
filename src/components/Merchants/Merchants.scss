@@ -1,0 +1,202 @@
+@import "../../styles/_variables.scss";
+
+.merchant-research-page {
+    .approach, .semi-structured-interviews-block, .super-merchant-block, .merchant-insights-block, .merchant-persona-block {
+        padding: 6vw 12vw;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .landing-title {
+        width: 100%;
+        position: relative;
+        margin-bottom: -0.3rem;
+        img {
+          width: 100%;
+        }
+        .page-name {
+          font-size: 3rem;
+          color: $white;
+          position: absolute;
+          top: 35%;
+          padding-left: 12vw;
+        }
+        .page-desc {
+          width: 40%;
+          font-size: 1rem;
+          color: $white;
+          position: absolute;
+          top: 50%;
+          padding-left: 12vw;
+          line-height: 1.6;
+        }
+    }
+
+    .approach {
+        .approach-title {
+          font-size: $section-header-desktop-size;
+          margin-bottom: 3rem;
+        }
+         
+        .approach-content {
+            font-size: $section-content-desktop-size;
+            display: inline-block;
+            width: 50%;
+        }
+        .methods {
+            padding: 5rem 0;
+            font-size: $section-content-desktop-size;
+            .methods-list {
+                width: 100%;
+                display: flex;
+                .method {
+                    display: inline-block;
+                    width: 20%;
+                    margin-right: 4%;
+                    .method-number {
+                        font-size: $section-content-desktop-size + 0.3rem;
+                    }
+                    .method-title {
+                        font-weight: bold;
+                    }
+                    .method-desc {
+                        margin-top: 1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .image-blurb {
+        width: 100%;
+        position: relative;
+        margin-bottom: -0.4rem;
+        img {
+          width: 100%;
+        }
+        .image-blurb-title {
+          font-size: 2rem;
+          color: $white;
+          position: absolute;
+          top: 35%;
+          padding-left: 12vw;
+        }
+        .image-blurb-desc  {
+          width: 40%;
+          font-size: 1rem;
+          color: $white;
+          position: absolute;
+          top: 50%;
+          padding-left: 12vw;
+          line-height: 1.6;
+        }
+    }
+
+    .semi-structured-interviews-block {
+        font-size: $section-content-desktop-size;
+        .semi-desc {
+            width: 50%;
+        }
+        .semi-subheader {
+            font-weight: bold;
+            margin-bottom: 3rem;
+            margin-top: 4rem;
+        }
+        .semi-images {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-content: space-between;
+        }
+        .semi-quote-list {
+            display: flex;
+            width: 100%;
+            .quote {
+            width: 40%;
+            padding-right: 8%;
+            padding-left: 2%;
+            border-left: $orange 5px solid;
+            font-style: italic;
+            }
+        }
+        .merchant-interview-img {
+            margin: 3rem 0;
+            width: 76vw;
+        }
+    }
+
+    .super-merchant-block {
+        background-color: $white;
+        .super-merchant-title {
+            font-size: $section-header-desktop-size;
+            margin-bottom: 3rem;
+        }
+        .super-merchant-desc {
+            font-size: $section-content-desktop-size;
+            display: inline-block;
+            width: 50%;
+        }
+        .super-merchant-takeaways {
+            padding: 5rem 0;
+            font-size: $section-content-desktop-size;
+            .super-merchant-takeaways-list {
+                width: 100%;
+                display: flex;
+                .super-merchant-takeaway {
+                    display: inline-block;
+                    width: 30%;
+                    margin-right: 4%;
+                    .super-merchant-takeaway-number {
+                        font-size: $section-content-desktop-size + 0.3rem;
+                    }
+                    .super-merchant-takeaway-desc {
+                        margin-top: 1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .merchant-insights-block {
+        background-color: $light-blue;
+        color: $white;
+        .merchant-insights-title {
+            font-size: $section-header-desktop-size;
+            margin-bottom: 3rem;
+            font-weight: bold;
+        }
+        .merchant-insights {
+            font-size: $section-content-desktop-size;
+            .merchant-insights-list {
+                width: 100%;
+                display: flex;
+                .merchant-insight {
+                    display: inline-block;
+                    width: 30%;
+                    margin-right: 4%;
+                    .merchant-insight-number {
+                        font-size: $section-content-desktop-size + 0.3rem;
+                    }
+                    .merchant-insight-desc {
+                        margin-top: 1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .merchant-persona-block {
+        .merchant-persona-title {
+            font-size: $section-header-desktop-size;
+            margin-bottom: 3rem;
+            font-weight: bold;
+        }
+        .merchant-persona-desc {
+            font-size: $section-content-desktop-size;
+            display: inline-block;
+            width: 50%;
+            margin-bottom: 5rem;
+        }
+    }
+}

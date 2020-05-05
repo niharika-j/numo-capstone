@@ -14,15 +14,14 @@ class Home extends React.Component {
   render() {
 
     //Static text in home page
-    const projectDescription = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore";
+    const projectDescription = "";
     const problemDescription = "Card-linked offers(CLO) on debit cards were introduced by PNC. However, these offers did not gain traction amongst bank customers. Our team was asked to explore the CLO space to discover unmet needs of the customers and come up with better metrics to measure value of a CLO for banks, merchants and customers.";
     const aboutNumo = "numo is part startup, part corporate innovation lab and part tech incubator. They are an independent subsidiary of a Fortune 500 financial institution. They look for unsolved problems in the financial industry and built innovative solutions for them using emerging technologies.";
-    const goals = ["Lorem ipsum dolor sit amet, consectetur adipisicing elit", "Lorem ipsum dolor sit amet, consectetur adipisicing elit", "Lorem ipsum dolor sit amet, consectetur adipisicing elit", "Lorem ipsum dolor sit amet, consectetur adipisicing elit"];
     const blurbData = {
       "clo": {
         type: "clo",
         title: "What is CLO?",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+        description: "Our very first task was to learn more about card linked offers and the space they existed in.",
         keywords: ["Card-linked Offers", "Publisher Apps", "Mastercard/Visa", "Cardlytics"],
         url: '/background',
         image: clo
@@ -30,40 +29,40 @@ class Home extends React.Component {
       "merchant": {
         type: "merchant",
         title: "Merchants",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+        description: "We conducted several interviews with merhcants to better understand them and their needs.",
         keywords: ["Guerilla Research", "Affinity Diagram", "Superuser Interview", "Persona"],
         url: '/merchants',
         image: merchant,
-        quotes: ["Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore", "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore"]
+        quotes: ["Online retailers and Amazon are slowing down my business. Traffic has been down over the last couple years since online options.", "I use my PoS system to track inventory, and get ratios of new vs. returning customers."]
       },
       "consumer": {
         type: "consumer",
         title: "Consumers",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+        description: "We needed to understand what motivates consumers, especially in terms of CLO’s, so we could create a product for them.",
         keywords: ["Guerilla Research", "Semi-structured Interview", "Affinity Diagram", "Persona"],
         url: '/consumers',
         image: consumer,
-        quotes: ["Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore", "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore"]
+        quotes: ["If deals were personalized to me, then I would care about them more. It will make the experience more meaningful.", "I feel the time spent using the app has to be proportional to money saved to make it worthwhile."]
       }
     };
     const imageBlurbData = {
       "prototyping": {
         title: "Prototyping",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+        description: "This is where we take all our insights and research and synthesize it into ideas that can benefit both stakeholders.",
         image: prototype,
         altText: "prototypes",
         url: '/prototypes'
       },
       "primaryResearch": {
         title: "Primary Research",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+        description: "To really understand our problem space we had to better understand our two main stake holders: merchants and consumers.",
         image: primarybg,
         altText: "affinity diagram",
         url: null
       },
       "aboutUs": {
         title: "About Us",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+        description: "",
         image: team,
         altText: "capstone team members",
         url: '/team'
@@ -153,19 +152,6 @@ class Home extends React.Component {
             <div className="about-numo-content">{aboutNumo}</div>
             <div className="about-numo-image">
               <img src={numoLogo} className="numo-logo" alt="numo logo" />
-            </div>
-          </div>
-          <div className="about-numo-goals">
-            <div className="about-numo-goals-title">Our goals</div>
-            <div className="goals-list">
-              {goals.map((goal, index) => {
-                return (
-                  <div key={"goal" + index} className="goal">
-                    <div className="goal-number">{index + 1}.</div>
-                    <div>{goal}</div>
-                  </div>
-                )
-              })}
             </div>
           </div>
         </div>

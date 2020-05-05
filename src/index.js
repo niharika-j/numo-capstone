@@ -7,6 +7,7 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
+import ScrollToTop from './scrollToTop';
 /*All pages*/
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
@@ -18,9 +19,10 @@ import Prototypes from './components/Prototypes/Prototypes';
 import Team from './components/Team/Team';
 
 ReactDOM.render(
-  <Router>
+  <Router basename="/numo-capstone">
     <Navbar />
     <Switch>
+    <ScrollToTop>
       <Route exact path="/">
         <Home />
       </Route>
@@ -39,6 +41,7 @@ ReactDOM.render(
       <Route path="/team">
         <Team />
       </Route>
+      </ScrollToTop>
     </Switch>
     <Footer />
   </Router>,
