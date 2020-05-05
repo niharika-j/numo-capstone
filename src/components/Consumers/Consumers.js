@@ -81,7 +81,7 @@ class Consumers extends React.Component {
       <div className="consumer-research-page">
         <div className="landing-title">
           <img src={consumerLandingBG} className="landing-background" alt="think aloud research with consumers" />
-          <div className="page-name">Primary Research: Merchants</div>
+          <div className="page-name">Learn from Consumers</div>
           <div className="page-desc">{pageDescription}</div>
         </div>
 
@@ -119,13 +119,16 @@ class Consumers extends React.Component {
 
         <div className="consumer-section set-bg-white">
           <div className="consumer-section-content">
-            <div className="consumer-section-image">
+            {window.screen.width>420 ? <div className="consumer-section-image">
               <img src={boothInterviewImg} alt="Team conducting booth interview" />
-            </div>
+            </div> : null}
             <div className="consumer-section-text">
               <div className="consumer-section-title">Booth Interview</div>
               <div className="consumer-section-desc">{boothInterview}</div>
             </div>
+            {window.screen.width<=420 ? <div className="consumer-section-image">
+              <img src={boothInterviewImg} alt="Team conducting booth interview" />
+            </div> : null}
           </div>
         </div>
 

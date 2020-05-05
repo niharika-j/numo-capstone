@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import './Home.scss';
 import landingBG from '../../assets/images/landing-bg.png';
+import mobileLandingBG from '../../assets/images/home-mobile-bg.png';
 import numoLogo from '../../assets/images/numo-logo.png';
 import clo from '../../assets/images/what-is-clo.png';
 import primarybg from '../../assets/images/primary-research-bg.png';
@@ -134,9 +135,14 @@ class Home extends React.Component {
     }
 
     return (
-      <div>
+      <div className="home-page">
         <div className="landing-title">
-          <img src={landingBG} className="landing-background" alt="Capstone team" />
+          {
+            (window.screen.width <= 420) ? 
+            <img src={mobileLandingBG} className="landing-background" alt="Capstone team" />
+            :
+            <img src={landingBG} className="landing-background" alt="Capstone team" />
+          }
           <div className="project-name">MHCI  x numo</div>
           <div className="project-desc">{projectDescription}</div>
         </div>

@@ -203,3 +203,206 @@
         }
     }
 }
+
+/***** RESPONSIVE STYLES *****/
+
+//Mobile phones
+@media only screen and (max-width: $phone-width-breakpoint) {
+    .consumer-research-page {
+        .approach, .consumer-section, .consumer-insights-block, .consumer-superuser-insights-block, .consumer-persona-block {
+            padding: 2rem 12vw;
+        }
+
+        .landing-title{
+            overflow: hidden;
+            .page-name {
+                font-size: $page-header-mobile-size;
+                top: 25%
+            }
+            .page-desc  {
+                font-size: $section-content-mobile-size;
+                top: 55%;
+                width: 70vw;
+                top: 45%;
+            }
+            img {
+                position: relative;
+                height: 75vh;
+                left: 100%;
+                margin-left: -220%;
+                width: auto;
+            }
+        }
+
+        .approach {
+            .approach-title {
+              font-size: $section-header-mobile-size;
+              margin-bottom: 1.5rem;
+            }
+            .approach-content {
+                width: 100%;
+                font-size: $section-content-mobile-size;
+                display: block;
+                font-weight: lighter;
+            }
+            .methods {
+                padding-top: 2rem;
+                padding-bottom: 0;
+                font-size: $section-content-mobile-size;
+                font-weight: lighter;
+                .methods-list {
+                    width: 100%;
+                    display: block;
+                    .method {
+                        display: inline-block;
+                        width: 100%;
+                        .method-number {
+                            font-size: $section-content-mobile-size + 0.3rem;
+                        }
+                        .method-desc {
+                            margin-top: 1rem;
+                        }
+                        margin-bottom: 1.5rem;
+                        &:last-of-type {
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+        }
+
+        .image-blurb {
+            width: 100%;
+            position: relative;
+            overflow: hidden;
+            .image-blurb-bg {
+              position: relative;
+              height: 50vh;
+              left: 100%;
+              margin-left: -250%;
+              width: auto;
+            }
+            .image-blurb-title {
+              font-size: $section-header-mobile-size;
+              position: absolute;
+              top: 30%;
+            }
+            .image-blurb-desc  {
+              width: 70%;
+              font-size: $section-content-mobile-size;
+              position: absolute;
+              top: 50%;
+            }
+        }
+
+        .consumer-section {
+            .consumer-section-content {
+              width: 100%;
+              font-size: $section-content-mobile-size;
+              display: block;
+              .consumer-section-text, .consumer-section-image {
+                display: block;
+                width: 100%;
+              }
+              .consumer-section-text {
+                  padding-right: 0;
+                  padding-top: 1rem;
+                  font-weight: lighter;
+                  .consumer-section-header {
+                      font-size: $section-header-mobile-size;
+                      margin-bottom: 3rem;
+                      font-weight: normal;
+                  }
+                  .consumer-section-title {
+                      font-weight: bold;
+                      margin-bottom: 1.5rem;
+                  }
+                  .consumer-section-desc {
+                      margin-bottom: 1.5rem;
+                  }
+              }
+              .consumer-section-image {
+                text-align: center;
+                img {
+                  width: 76vw;
+                }
+              }
+            }
+        }
+
+        .consumer-insights-block {
+            .consumer-insights-title {
+                font-size: $section-header-mobile-size;
+                margin-bottom: 1.5rem;
+                font-weight: normal;
+            }
+            .consumer-insights {
+                font-size: $section-content-mobile-size;
+                font-weight: lighter;
+                .consumer-insights-list {
+                    width: 100%;
+                    display: block;
+                    .consumer-insight {
+                        display: block;
+                        width: 100%;
+                        margin-bottom: 1.5rem;
+                        .consumer-insight-number {
+                            font-size: $section-content-mobile-size + 0.3rem;
+                        }
+                        .consumer-insight-desc {
+                            margin-top: 0.7rem;
+                        }
+                        &:last-of-type {
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+        }
+
+        .consumer-superuser-insights-block {
+            .consumer-superuser-insights-title {
+                font-size: $section-header-mobile-size;
+                margin-bottom: 1.5rem;
+                font-weight: normal;
+            }
+            .consumer-superuser-insights {
+                font-size: $section-content-mobile-size;
+                font-weight: lighter;
+                .consumer-superuser-insights-list {
+                    width: 100%;
+                    display: block;
+                    .consumer-superuser-insight {
+                        display: block;
+                        width: 100%;
+                        margin-bottom: 1.5rem;
+                        .consumer-superuser-insight-number {
+                            font-size: $section-content-mobile-size + 0.3rem;
+                        }
+                        .consumer-superuser-insight-desc {
+                            margin-top: 0.7rem;
+                        }
+                        &:last-of-type {
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+        }
+
+        .consumer-persona-block {
+            .consumer-persona-title {
+                font-size: $section-header-mobile-size;
+                margin-bottom: 1.5rem;
+                font-weight: normal;
+            }
+            .consumer-persona-desc {
+                font-size: $section-content-mobile-size;
+                display: block;
+                width: 100%;
+                margin-bottom: 2rem;
+                font-weight: lighter;
+            }
+        }
+    }
+}

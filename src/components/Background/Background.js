@@ -53,7 +53,7 @@ class Background extends React.Component {
            <div className="takeaways-header">Mediums for CLOs</div>
           }
           
-          {alignText==="left"?
+          {(alignText==="left" || window.screen.width<=420)?
             <div className="takeaways-content">
               <div className="takeaways-text">
                 <div className="takeaways-title">{obj.title}</div>

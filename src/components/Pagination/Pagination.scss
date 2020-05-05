@@ -9,6 +9,7 @@
     padding: 6vw 12vw;
     background-color: $dark-blue;
     color: $white;
+    font-size: $section-content-desktop-size;
     .pagination-link {
         cursor: pointer;
         a {
@@ -21,5 +22,15 @@
     }
     .hidden {
         visibility: hidden;
+    }
+}
+
+/***** RESPONSIVE STYLES *****/
+
+//Mobile phones
+@media only screen and (max-width: $phone-width-breakpoint) {
+    .pagination {
+        font-size: $section-content-mobile-size - 0.2rem;
+        font-weight: lighter;
     }
 }

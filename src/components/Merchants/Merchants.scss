@@ -109,17 +109,17 @@
             justify-content: space-between;
             align-content: space-between;
         }
-        .semi-quote-list {
-            display: flex;
-            width: 100%;
-            .quote {
-            width: 40%;
-            padding-right: 8%;
-            padding-left: 2%;
-            border-left: $orange 5px solid;
-            font-style: italic;
-            }
-        }
+        // .semi-quote-list {
+        //     display: flex;
+        //     width: 100%;
+        //     .quote {
+        //     width: 40%;
+        //     padding-right: 8%;
+        //     padding-left: 2%;
+        //     border-left: $orange 5px solid;
+        //     font-style: italic;
+        //     }
+        // }
         .merchant-interview-img {
             margin: 3rem 0;
             width: 76vw;
@@ -197,6 +197,212 @@
             display: inline-block;
             width: 50%;
             margin-bottom: 5rem;
+        }
+    }
+}
+
+/***** RESPONSIVE STYLES *****/
+
+//Mobile phones
+@media only screen and (max-width: $phone-width-breakpoint) {
+    .merchant-research-page {
+        .approach, .semi-structured-interviews-block, .super-merchant-block, .merchant-insights-block, .merchant-persona-block {
+            padding: 2rem 12vw;
+        }
+        .landing-title{
+            overflow: hidden;
+            .page-name {
+                font-size: $page-header-mobile-size;
+                top: 25%
+            }
+            .page-desc  {
+                font-size: $section-content-mobile-size;
+                top: 55%;
+                width: 70vw;
+                top: 45%;
+            }
+            img {
+                position: relative;
+                height: 75vh;
+                left: 100%;
+                margin-left: -200%;
+                width: auto;
+            }
+        }
+
+        .approach {
+            .approach-title {
+              font-size: $section-header-mobile-size;
+              margin-bottom: 1.5rem;
+            }
+            .approach-content {
+                width: 100%;
+                font-size: $section-content-mobile-size;
+                display: block;
+                font-weight: lighter;
+            }
+            .methods {
+                padding-top: 2rem;
+                padding-bottom: 0;
+                font-size: $section-content-mobile-size;
+                font-weight: lighter;
+                .methods-list {
+                    width: 100%;
+                    display: block;
+                    .method {
+                        display: inline-block;
+                        width: 100%;
+                        .method-number {
+                            font-size: $section-content-desktop-size + 0.3rem;
+                        }
+                        .method-desc {
+                            margin-top: 1rem;
+                        }
+                        margin-bottom: 1.5rem;
+                        &:last-of-type {
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+        }
+
+        .image-blurb {
+            width: 100%;
+            position: relative;
+            overflow: hidden;
+            .image-blurb-bg {
+              position: relative;
+              height: 50vh;
+              left: 100%;
+              margin-left: -200%;
+              width: auto;
+            }
+            .image-blurb-title {
+              font-size: $section-header-mobile-size;
+              position: absolute;
+              top: 30%;
+            }
+            .image-blurb-desc  {
+              width: 70%;
+              font-size: $section-content-mobile-size;
+              position: absolute;
+              top: 50%;
+            }
+        }
+
+        .semi-structured-interviews-block {
+            font-size: $section-content-mobile-size;
+            .semi-desc {
+                width: 100%;
+                font-weight: lighter;
+            }
+            ul {
+                padding-inline-start: 1rem;
+                margin-bottom: 2rem;
+                font-weight: lighter;
+                li {
+                    margin-bottom: 0.2rem;
+                    line-height: normal;
+                }
+            }
+            .semi-subheader {
+                font-size: $section-header-mobile-size;
+                font-weight: normal;
+                margin-bottom: 1.5rem;
+                margin-top: 1rem;
+            }
+            .semi-images {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                img {
+                    width: 33vw;
+                }
+            }
+            .merchant-interview-img {
+                margin: 1.5rem 0;
+                width: 76vw;
+            }
+        }
+
+        .merchant-insights-block {
+            .merchant-insights-title {
+                font-size: $section-header-mobile-size;
+                margin-bottom: 1.5rem;
+                font-weight: normal;
+            }
+            .merchant-insights {
+                font-size: $section-content-mobile-size;
+                font-weight: lighter;
+                .merchant-insights-list {
+                    width: 100%;
+                    display: block;
+                    .merchant-insight {
+                        display: block;
+                        width: 100%;
+                        margin-right: 0;
+                        margin-bottom: 1rem;
+                        .merchant-insight-number {
+                            font-size: $section-content-mobile-size + 0.3rem;
+                        }
+                        .merchant-insight-desc {
+                            margin-top: 0;
+                        }
+                    }
+                }
+            }
+        }
+
+        .super-merchant-block {
+            .super-merchant-title {
+                font-size: $section-header-mobile-size;
+                margin-bottom: 1.5em;
+            }
+            .super-merchant-desc {
+                font-size: $section-content-mobile-size;
+                font-weight: lighter;
+                display: block;
+                width: 100%;
+            }
+            .super-merchant-takeaways {
+                padding: 1.5rem 0;
+                font-size: $section-content-mobile-size;
+                font-weight: lighter;
+                .super-merchant-takeaways-list {
+                    width: 100%;
+                    display: block;
+                    .super-merchant-takeaway {
+                        display: block;
+                        width: 100%;
+                        margin-right: 0;
+                        margin-bottom: 1rem;
+                        .super-merchant-takeaway-number {
+                            font-size: $section-content-mobile-size + 0.3rem;
+                        }
+                        .super-merchant-takeaway-desc {
+                            margin-top: 0.4rem;
+                        }
+                        &:last-of-type {
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+        }
+
+        .merchant-persona-block {
+            .merchant-persona-title {
+                font-size: $section-header-mobile-size;
+                margin-bottom: 1.5rem;
+                font-weight: normal;
+            }
+            .merchant-persona-desc {
+                font-size: $section-content-mobile-size;
+                display: block;
+                width: 100%;
+                margin-bottom: 1.5rem;
+            }
         }
     }
 }

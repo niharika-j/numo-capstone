@@ -142,3 +142,129 @@
         }
     }
 }
+
+/***** RESPONSIVE STYLES *****/
+
+//Mobile phones
+@media only screen and (max-width: $phone-width-breakpoint) {
+    .about-us-page {
+        .landing-title{
+            overflow: hidden;
+            .page-name {
+                font-size: $page-header-mobile-size;
+                top: 25%
+            }
+            .page-desc  {
+                font-size: $section-content-mobile-size;
+                top: 55%;
+                width: 70vw;
+                top: 45%;
+            }
+            img {
+                position: relative;
+                width: 100%;
+            }
+        }
+
+        .multidisciplinary-team  {
+            width: 100%;
+            padding: 2rem;
+            box-sizing: border-box;
+            display: block;
+            text-align: left;
+            .multidisciplinary-title, .multidisciplinary-desc {
+                width: 100%;
+            }
+            .multidisciplinary-title {
+                font-size: $section-header-mobile-size;
+                margin-bottom: 1.5rem;
+            }
+            .multidisciplinary-desc {
+                font-size: $section-content-mobile-size;
+                font-weight: lighter;
+            }
+        }
+
+        .team-gallery {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            .team-member {
+                box-sizing: border-box;
+                padding: 2rem;
+                padding-bottom: 0;
+                width: 100%;
+                margin: -1px;
+                .member-image {
+                    width: 100%;
+                }
+                .member-name {
+                    position: absolute;
+                    font-size: $section-header-mobile-size;
+                    bottom: 12%;
+                }
+                .member-role {
+                    position: absolute;
+                    font-size: $section-content-mobile-size;
+                    bottom: 8%;
+                }
+            }
+        }
+
+        .medium {
+            margin-bottom: -0.3rem;
+            margin-top: 2rem;
+            .medium-bg {
+              width: 100%;
+            }
+            .medium-title {
+              font-size: $section-header-mobile-size;
+              top: 35%;
+            }
+            .medium-button {
+                top: 55%;
+                font-size: $section-content-mobile-size;
+                font-weight: normal;
+            }
+        }
+    }
+
+    .team-member-modal{
+        padding: 0;
+        .member-profile-block {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 0;
+            .member-profile-pic {
+                display: block;
+                width: 100%;
+                img {
+                    width: 100%;
+                }
+            }
+            .member-profile-text {
+                display: block;
+                font-size: $section-content-mobile-size;
+                width: 100%;
+                padding: 1.5rem;
+                .member-profile-name {
+                    font-weight: bold;
+                    margin-bottom: 0.5rem;
+                    font-size: $section-content-mobile-size + 0.3rem;
+                }
+                .member-profile-role {
+                    font-size: $section-content-mobile-size;
+                    margin-bottom: 1.5rem;
+                }
+                .member-links{
+                    margin-top: 1rem;
+                    font-size: 2rem;
+                    a {
+                        padding-right: 1rem;
+                        color: $slate;
+                    }
+                }
+            }
+        }
+    }
+}

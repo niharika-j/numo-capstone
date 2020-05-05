@@ -25,6 +25,8 @@ import investmentConsumer2 from '../../assets/images/investment-consumer-2.png';
 import investmentConsumer3 from '../../assets/images/investment-consumer-3.png';
 import investmentMerchant1 from '../../assets/images/investment-merchant-1.png';
 import investmentMerchant2 from '../../assets/images/investment-merchant-2.png';
+import restaurantMobileConsumer from '../../assets/images/restaurant-consumer-mobile.png';
+import investmentMobileConsumer from '../../assets/images/investment-consumer-mobile.png';
 
 class Prototypes extends React.Component {
   render() {
@@ -135,11 +137,8 @@ class Prototypes extends React.Component {
     const generateInfoBlock = (obj, alignText="left", bg="none") => {
       return (
         <div className={bg==="none"?"info-block":"info-block set-white-bg"}>
-          {obj.sectionHeader && 
-           <div className="info-header">Mediums for CLOs</div>
-          }
           
-          {alignText==="left"?
+          {(alignText==="left" || window.screen.width<=420)?
             <div className="info-content">
               <div className="info-text">
                 <div className="info-title">{obj.title}</div>
@@ -252,9 +251,17 @@ class Prototypes extends React.Component {
           <div className="refining-desc">{fleshingPrototypeDesc}</div>
           <div className="refining-header">Restaurant Idea: Consumer</div>
           <div className="refining-images">
-            <div className="refining-image3-container"><img src={restaurantConsumer1} alt="refined restaurant prototypes" /></div>
-            <div className="refining-image3-container"><img src={restaurantConsumer2} alt="refined restaurant prototypes" /></div>
-            <div className="refining-image3-container"><img src={restaurantConsumer3} alt="refined restaurant prototypes" /></div>
+            { (window.screen.width <= 420) ? 
+              <div className="refining-image3-block">
+                <div className="refining-image3-container"><img src={restaurantMobileConsumer} alt="refined restaurant prototypes" /></div>
+              </div>
+            :
+              <div className="refining-image3-block">
+                <div className="refining-image3-container"><img src={restaurantConsumer1} alt="refined restaurant prototypes" /></div>
+                <div className="refining-image3-container"><img src={restaurantConsumer2} alt="refined restaurant prototypes" /></div>
+                <div className="refining-image3-container"><img src={restaurantConsumer3} alt="refined restaurant prototypes" /></div>
+              </div>
+            }
           </div>
           <div className="refining-header">Restaurant Idea: Merchant</div>
           <div className="refining-images">
@@ -263,9 +270,17 @@ class Prototypes extends React.Component {
           </div>
           <div className="refining-header">Investment Idea: Consumer</div>
           <div className="refining-images">
-            <div className="refining-image3-container"><img src={investmentConsumer1} alt="refined investment prototypes" /></div>
-            <div className="refining-image3-container"><img src={investmentConsumer2} alt="refined investment prototypes" /></div>
-            <div className="refining-image3-container"><img src={investmentConsumer3} alt="refined investment prototypes" /></div>
+            { (window.screen.width <= 420) ? 
+              <div className="refining-image3-block">
+                <div className="refining-image3-container"><img src={investmentMobileConsumer} alt="refined investment prototypes" /></div>
+              </div>
+              :
+              <div className="refining-image3-block">
+                <div className="refining-image3-container"><img src={investmentConsumer1} alt="refined investment prototypes" /></div>
+                <div className="refining-image3-container"><img src={investmentConsumer2} alt="refined investment prototypes" /></div>
+                <div className="refining-image3-container"><img src={investmentConsumer3} alt="refined investment prototypes" /></div>
+              </div>
+            }
           </div>
           <div className="refining-header">Investment Idea: Merchant</div>
           <div className="refining-images">

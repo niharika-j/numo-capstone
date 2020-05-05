@@ -4,4 +4,12 @@
     background-color: $slate;
     color: $white;
     padding: 1.5rem 12vw;
+    font-size: $section-content-desktop-size - 0.2rem;
+}
+
+@media only screen and (max-width: $phone-width-breakpoint) {
+    .footer {
+        text-align: center;
+        font-size: $section-content-mobile-size - 0.2rem;
+    }
 }

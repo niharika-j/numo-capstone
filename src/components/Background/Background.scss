@@ -140,3 +140,154 @@
         }
     }
 }
+
+/***** RESPONSIVE STYLES *****/
+
+//Mobile phones
+@media only screen and (max-width: $phone-width-breakpoint){
+    .background-research{
+        .landing-title{
+            overflow: hidden;
+            .page-name {
+                font-size: $page-header-mobile-size;
+                top: 25%
+            }
+            .page-desc  {
+                font-size: $section-content-mobile-size;
+                top: 55%;
+                width: 70vw;
+                top: 45%;
+            }
+            img {
+                position: relative;
+                height: 75vh;
+                left: 100%;
+                margin-left: -170%;
+                width: auto;
+            }
+        }
+        .landing-problem {
+            font-weight: lighter;
+        .landing-problem-title {
+            font-size: $section-header-mobile-size;
+            margin-bottom: 1.5rem;
+        }
+        .landing-problem-desc {
+            font-size: $section-content-mobile-size;
+        }
+        }
+        .approach, .takeaways-block, .stakeholder {
+            padding: 2rem 12vw;
+        }
+        .approach {
+            .approach-title {
+              font-size: $section-header-mobile-size;
+              margin-bottom: 1.5rem;
+            }
+            .approach-content {
+                width: 100%;
+                font-size: $section-content-mobile-size;
+                display: block;
+                font-weight: lighter;
+            }
+            .topics {
+                padding-top: 2rem;
+                padding-bottom: 0;
+                font-size: $section-content-mobile-size;
+                font-weight: lighter;
+                .topics-list {
+                    width: 100%;
+                    display: block;
+                    .topic {
+                        display: inline-block;
+                        width: 100%;
+                        .topic-number {
+                            font-size: $section-content-desktop-size + 0.3rem;
+                        }
+                        .topic-desc {
+                            margin-top: 1rem;
+                        }
+                        margin-bottom: 1.5rem;
+                        &:last-of-type {
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+            img {
+                width: 76vw;
+            }
+            .clo-points-block {
+                padding-top: 1.5rem;
+                font-size: $section-content-mobile-size;
+                font-weight: lighter;
+                .clo-points-title {
+                    margin-bottom: 0.5rem;
+                }
+                .clo-points-list {
+                    padding-inline-start: 1rem;
+                }
+                .clo-points-list li {
+                    width: 100%;
+                    margin-bottom: 0.5rem;
+                    line-height: normal;
+                }
+            }
+        }
+        .takeaways-block {
+            .takeaways-header {
+              font-size: $section-header-mobile-size;
+              margin-bottom: 1.5rem;
+            }
+            .takeaways-content {
+              width: 100%;
+              font-size: $section-content-mobile-size;
+              font-weight: lighter;
+              display: block;
+              .takeaways-text, .takeaways-image {
+                display: block;
+                width: 100%;
+              }
+              .takeaways-text {
+                  padding-right: 0;
+                  padding-top: 0;
+                  .takeaways-title {
+                      font-weight: normal;
+                      margin-bottom: 0.5rem;
+                  }
+                  .takeaways-list  {
+                    padding-inline-start: 1rem;
+                    margin-bottom: 2rem;
+                  }
+                  .takeaways-list li {
+                      margin-bottom: 1rem;
+                      line-height: normal;
+                  }
+              }
+              .takeaways-image {
+                text-align: center;
+                img {
+                  width: 80%;
+                }
+              }
+            }
+        }
+        .stakeholder {
+            .stakeholder-title {
+                font-size: $section-header-mobile-size;
+                margin-bottom: 1.5rem;
+            }
+            .stakeholder-text {
+                width: 100%;
+                font-size: $section-content-mobile-size;
+                font-weight: lighter;
+                line-height: normal;
+                width: 100%;
+                margin-bottom: 2rem;
+            }
+            img  {
+                width: 76vw;
+            }
+        }
+    }
+}

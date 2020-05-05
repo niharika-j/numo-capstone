@@ -11,7 +11,6 @@ import merchant3 from '../../assets/images/merchant3.png';
 import merchant4 from '../../assets/images/merchant4.png';
 import merchant5 from '../../assets/images/merchant5.png';
 import merchant6 from '../../assets/images/merchant6.png';
-import merchant7 from '../../assets/images/merchant7.png';
 import semiStructuredMerchantInterview from '../../assets/images/semi-structured-merchant-interview.png';
 import merchantInterpretationSession from '../../assets/images/merchant-interpretation-session.png';
 import merchantPersona1 from '../../assets/images/merchant-persona-1.jpg';
@@ -119,7 +118,6 @@ class Merchants extends React.Component {
               <img src={merchant4} alt="merchant logo" />
               <img src={merchant5} alt="merchant logo" />
               <img src={merchant6} alt="merchant logo" />
-              <img src={merchant7} alt="merchant logo" />
           </div>
           {/* <div className="semi-subheader">What do people say?</div>
           <div className="semi-quote-list">

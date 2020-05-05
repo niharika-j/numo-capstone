@@ -3,7 +3,9 @@ import './Team.scss';
 import 'react-responsive-modal/styles.css';
 import { Modal } from 'react-responsive-modal';
 import aboutUsLandingBG from '../../assets/images/about-us-landing-bg.png';
+import aboutUsLandingMobileBG from '../../assets/images/about-us-landing-mobile-bg.png';
 import mediumBG from '../../assets/images/medium-bg.png';
+import mediumMobileBG from '../../assets/images/medium-mobile-bg.png';
 import mia from '../../assets/images/mia.png';
 import bin from '../../assets/images/bin.png';
 import kyle from '../../assets/images/kyle.png';
@@ -74,7 +76,7 @@ class Team extends React.Component {
     ];
     const popup = (obj) =>  {
       return (
-        <Modal open={this.state[obj.key]} className={"team-member-" + obj.key} key={"team-member-" + obj.key} onClose={() => closeModal(obj.key)} center>
+        <Modal open={this.state[obj.key]} className={"team-member-" + obj.key} key={"team-member-" + obj.key} onClose={() => closeModal(obj.key)} classNames={{modal: 'team-member-modal'}} center>
           <div className="member-profile-block">
             <div className="member-profile-pic"><img src={obj.profile} alt={obj.name} /></div>
             <div className="member-profile-text">
@@ -107,7 +109,12 @@ class Team extends React.Component {
       <div className="about-us-page">
 
         <div className="landing-title">
-          <img src={aboutUsLandingBG} className="landing-background" alt="think aloud research with consumers" />
+          { (window.screen.width <= 420) ?
+            <img src={aboutUsLandingMobileBG} className="landing-background" alt="think aloud research with consumers" />
+            :
+            <img src={aboutUsLandingBG} className="landing-background" alt="think aloud research with consumers" />
+          }
+          
           <div className="page-name">Meet the Team</div>
         </div>
 
@@ -145,7 +152,12 @@ class Team extends React.Component {
         </div>
 
         <div className="medium">
-          <img src={mediumBG} className="medium-bg" alt="computer displaying our medium posts" />
+          {
+            (window.screen.width <= 420) ? 
+              <img src={mediumMobileBG} className="medium-bg" alt="computer displaying our medium posts" />
+            :
+              <img src={mediumBG} className="medium-bg" alt="computer displaying our medium posts" />
+          }
           <div className="medium-title">Follow our journey @ Medium</div>
           <button className="medium-button" onClick={() => {window.open("https://medium.com/numo-mhci-capstone", "_blank")}}>Go to Medium</button>
         </div>

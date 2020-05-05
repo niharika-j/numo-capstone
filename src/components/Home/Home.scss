@@ -1,200 +1,308 @@
 @import "../../styles/_variables.scss";
 
-.white-bg {
-  background-color: $white;
-}
-
-.landing-problem, .about-numo, .blurb, .quote-block {
-  padding: 6vw 12vw;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.learn-more {
-  a {
-    text-decoration: none;
-    color: $orange;
-    font-weight: bold;
-    &:hover {
-      text-decoration: underline;
-    }
+.home-page{
+  .white-bg {
+    background-color: $white;
   }
-}
 
-.landing-title {
-  width: 100%;
-  position: relative;
-  margin-bottom: -0.3rem;
-  img {
+  .landing-problem, .about-numo, .blurb, .quote-block {
+    padding: 6vw 12vw;
     width: 100%;
+    box-sizing: border-box;
   }
-  .project-name {
-    font-size: 3rem;
-    color: $white;
-    position: absolute;
-    top: 35%;
-    padding-left: 12vw;
-  }
-  .project-desc  {
-    width: 40%;
-    font-size: 1rem;
-    color: $white;
-    position: absolute;
-    top: 50%;
-    padding-left: 12vw;
-    line-height: 1.6;
-  }
-}
 
-.landing-problem {
-  background-color: $light-blue;
-  color: $white;
-  .landing-problem-title {
-    font-size: $section-header-desktop-size;
-    margin-bottom: 3rem;
-  }
-  .landing-problem-desc {
-    font-size: $section-content-desktop-size;
-    line-height: 1.6;
-  }
-}
-
-.about-numo {
-  .about-numo-title {
-    font-size: $section-header-desktop-size;
-    margin-bottom: 3rem;
-  }
-  .about-numo-section {
-    width: 100%;
-    font-size: $section-content-desktop-size;
-    .about-numo-content, .about-numo-image {
-      display: inline-block;
-      width: 50%;
-    }
-    .about-numo-image {
-      text-align: center;
-      img {
-        width: 20vw;
-      }
-    }
-  }
-}
-
-.blurb {
-  .blurb-title {
-    font-size: $section-header-desktop-size;
-    margin-bottom: 3rem;
-  }
-  .blurb-section {
-    width: 100%;
-    font-size: $section-content-desktop-size;
-    display: flex;
-    .blurb-content, .blurb-image {
-      display: inline-block;
-      width: 50%;
-    }
-    .blurb-image {
-      text-align: center;
-      img {
-        width: 80%;
-      }
-    }
-  }
-  .keywords {
-    .keywords-header {
-      font-weight: bold;
-      margin-top: 4rem;
-    }
-    .keywords-list {
-      margin: 3rem 0;
-      div {
-        display: inline-block;
-        margin-right: 1rem;
-      }
-    }
-  }
-}
-
-.image-blurb {
-  width: 100%;
-  position: relative;
-  margin-bottom: -0.4rem;
-  img {
-    width: 100%;
-  }
-  .image-blurb-title {
-    font-size: 2rem;
-    color: $white;
-    position: absolute;
-    top: 35%;
-    padding-left: 12vw;
-  }
-  .image-blurb-desc  {
-    width: 40%;
-    font-size: 1rem;
-    color: $white;
-    position: absolute;
-    top: 50%;
-    padding-left: 12vw;
-    line-height: 1.6;
-  }
-  .image-blurb-link {
-    font-size: 1rem;
-    position: absolute;
-    top: 60%;
-    padding-left: 12vw;
+  .learn-more {
     a {
       text-decoration: none;
-      color: $white;
-      font-weight: 600;
+      color: $orange;
+      font-weight: bold;
       &:hover {
         text-decoration: underline;
       }
     }
   }
-}
 
-.quote-block {
-  background-color: $white;
-  .quote-title {
-    font-size: $section-content-desktop-size;
-    font-weight: bold;
-    margin-bottom: 3rem;
-  }
-  .quote-list {
-    display: flex;
+  .landing-title {
     width: 100%;
-    .quote {
+    position: relative;
+    margin-bottom: -0.3rem;
+    img {
+      width: 100%;
+    }
+    .project-name {
+      font-size: 3rem;
+      color: $white;
+      position: absolute;
+      top: 35%;
+      padding-left: 12vw;
+    }
+    .project-desc  {
       width: 40%;
-      padding-right: 8%;
-      padding-left: 2%;
-      border-left: $orange 5px solid;
-      font-style: italic;
+      font-size: 1rem;
+      color: $white;
+      position: absolute;
+      top: 50%;
+      padding-left: 12vw;
+      line-height: 1.6;
+    }
+  }
+
+  .landing-problem {
+    background-color: $light-blue;
+    color: $white;
+    .landing-problem-title {
+      font-size: $section-header-desktop-size;
+      margin-bottom: 3rem;
+    }
+    .landing-problem-desc {
+      font-size: $section-content-desktop-size;
+      line-height: 1.6;
+    }
+  }
+
+  .about-numo {
+    .about-numo-title {
+      font-size: $section-header-desktop-size;
+      margin-bottom: 3rem;
+    }
+    .about-numo-section {
+      width: 100%;
+      font-size: $section-content-desktop-size;
+      .about-numo-content, .about-numo-image {
+        display: inline-block;
+        width: 50%;
+      }
+      .about-numo-image {
+        text-align: center;
+        img {
+          width: 20vw;
+        }
+      }
+    }
+  }
+
+  .blurb {
+    .blurb-title {
+      font-size: $section-header-desktop-size;
+      margin-bottom: 3rem;
+    }
+    .blurb-section {
+      width: 100%;
+      font-size: $section-content-desktop-size;
+      display: flex;
+      .blurb-content, .blurb-image {
+        display: inline-block;
+        width: 50%;
+      }
+      .blurb-image {
+        text-align: center;
+        img {
+          width: 80%;
+        }
+      }
+    }
+    .keywords {
+      .keywords-header {
+        font-weight: bold;
+        margin-top: 4rem;
+      }
+      .keywords-list {
+        margin: 3rem 0;
+        div {
+          display: inline-block;
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+
+  .image-blurb {
+    width: 100%;
+    position: relative;
+    margin-bottom: -0.4rem;
+    img {
+      width: 100%;
+    }
+    .image-blurb-title {
+      font-size: 2rem;
+      color: $white;
+      position: absolute;
+      top: 35%;
+      padding-left: 12vw;
+    }
+    .image-blurb-desc  {
+      width: 40%;
+      font-size: 1rem;
+      color: $white;
+      position: absolute;
+      top: 50%;
+      padding-left: 12vw;
+      line-height: 1.6;
+    }
+    .image-blurb-link {
+      font-size: 1rem;
+      position: absolute;
+      top: 60%;
+      padding-left: 12vw;
+      a {
+        text-decoration: none;
+        color: $white;
+        font-weight: 600;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .quote-block {
+    background-color: $white;
+    .quote-title {
+      font-size: $section-content-desktop-size;
+      font-weight: bold;
+      margin-bottom: 3rem;
+    }
+    .quote-list {
+      display: flex;
+      width: 100%;
+      .quote {
+        width: 40%;
+        padding-right: 8%;
+        padding-left: 2%;
+        border-left: $orange 5px solid;
+        font-style: italic;
+      }
     }
   }
 }
-
 
 
 /***** RESPONSIVE STYLES *****/
 
 //Mobile phones
 @media only screen and (max-width: $phone-width-breakpoint){
-  .landing-title{
-    .project-name {
-      font-size: 1.2rem;
+  .home-page {
+    .landing-title{
+      overflow: hidden;
+      .project-name {
+        font-size: $page-header-mobile-size;
+      }
+      .project-desc  {
+        font-size: $section-content-mobile-size;
+        top: 55%;
+      }
+      img {
+        position: relative;
+        width: 100%;
+      }
     }
-    .project-desc  {
-      font-size: 0.5rem;
-      top: 55%;
+    .landing-problem {
+      font-weight: lighter;
+      .landing-problem-title {
+        font-size: $section-header-mobile-size;
+        margin-bottom: 1.5rem;
+      }
+      .landing-problem-desc {
+        font-size: $section-content-mobile-size;
+      }
     }
-  }
-  .landing-problem {
-    .landing-problem-title {
-      font-size: 0.72rem;
+    .landing-problem, .about-numo, .blurb, .quote-block {
+      padding: 2rem 12vw;
     }
-    .landing-problem-desc {
-      font-size: 0.5rem;
+    .about-numo {
+      font-weight: lighter;
+      .about-numo-title {
+        font-size: $section-header-mobile-size;
+        margin-bottom: 1.5rem;
+      }
+      .about-numo-section {
+        width: 100%;
+        font-size: $section-content-mobile-size;
+        .about-numo-content, .about-numo-image {
+          width: 100%;
+        }
+        .about-numo-image {
+          text-align: center;
+          margin-top: 2.5rem;
+          img {
+            width: 70vw;
+          }
+        }
+      }
+    }
+    .blurb {
+      .blurb-title {
+        font-size: $section-header-mobile-size;
+        margin-bottom: 1.5rem;
+      }
+      .blurb-section {
+        width: 100%;
+        font-size: $section-content-mobile-size;
+        font-weight: lighter;
+        display: block;
+        .blurb-content, .blurb-image {
+          width: 100%;
+        }
+        .blurb-image {
+          text-align: center;
+          img {
+            width: 76vw;
+          }
+        }
+        .learn-more  {
+          padding: 1.5rem 0;
+          font-size: $section-content-mobile-size;
+          font-weight: normal;
+        }
+      }
+      .keywords {
+        display: none;
+      }
+    }
+    .image-blurb {
+      width: 100%;
+      position: relative;
+      overflow: hidden;
+      img {
+        position: relative;
+        height: 65vh;
+        left: 100%;
+        margin-left: -200%;
+        width: auto;
+      }
+      .image-blurb-title {
+        font-size: $section-header-mobile-size;
+        position: absolute;
+        top: 30%;
+      }
+      .image-blurb-desc  {
+        width: 70%;
+        font-size: $section-content-mobile-size;
+        position: absolute;
+        top: 50%;
+      }
+      .image-blurb-link {
+        font-size: $section-content-mobile-size;
+        position: absolute;
+        top: 80%;
+      }
+    }
+    .quote-block {
+      .quote-title {
+        font-size: $section-content-mobile-size;
+        margin-bottom: 1.5rem;
+      }
+      .quote-list {
+        display: block;
+        width: 100%;
+        font-size: $section-content-mobile-size - 0.1rem;
+        .quote {
+          width: 100%;
+          font-weight: lighter;
+          padding-left: 0.5rem;
+          margin-bottom: 1.5rem;
+        }
+      }
     }
   }
 }
