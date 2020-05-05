@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/numo-capstone/precache-manifest.6a9a2a9c766d59899b1ad813eb8c842a.js"
+  "/numo-capstone/precache-manifest.d8e7a35f4a79db31988402d081882592.js"
 );
 
 self.addEventListener('message', (event) => {
